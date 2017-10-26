@@ -1,0 +1,51 @@
+body {
+  font-size: 16px;
+  color:black;
+  background-color:white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+#collapsable-nav{
+	padding-top: 40px;
+}
+
+.menu{}
+
+/* to vertical align the text , first shet parent to line-hight, then at child verticla-align middle */
+.ourmenu{
+	background-color: #ffcc00;
+	line-height: 100px;
+	vertical-align:middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.ourmenu h2{
+	vertical-align: middle;
+}
+
+
+.sub-menu{
+	background-color: #ffff66;
+	text-align: center;
+	height:350px;
+	box-shadow: inset 0 0 0 10px #808080;
+	-moz-box-shadow: inset 0 0 0 10px #808080;
+	-webkit-box-shadow: inset 0 0 0 10px #808080;
+	border: 1px solid #808080;
+	padding: 10px;	
+
+}
+
+.submenu h3{
+ 
+	}
+
+.submenu p {
+
+}
